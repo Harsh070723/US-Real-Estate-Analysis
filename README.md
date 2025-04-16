@@ -1,70 +1,50 @@
-This Power BI dashboard presents an interactive overview of individual income tax filings in India for the financial year 2023–24. It provides powerful insights into tax collection trends, refund distribution, and taxpayer demographics.
+ US Real Estate Market Analysis Dashboard
+Tool Used: Power BI
+Domain: Real Estate Analytics
+Level: Intermediate
 
-✅ Key Features:
-Dynamic Filtering by:
+📌 Project Objective:
+To analyze and visualize real estate property listings across major U.S. cities and uncover insights on pricing trends, property characteristics, and market distribution.
 
-Filing Year
+📊 Key Features & Metrics:
+Total Listings: Displays total number of properties available (e.g., 96 listings).
 
-Occupation
+Average Price & Price per Sq. Ft: Calculates key market KPIs to help assess affordability and value.
 
-State
+Interactive Filters: Enables dynamic filtering by:
 
-Refund Status
+City
 
-Main KPIs:
+Property Type
 
-Total Tax Paid
+Price Range
 
-Total Refunds Issued
+Year Built
 
-Refund Success Rate
+Visual Elements:
 
-Total Net Income
+Map Visualization: Highlights states with active listings using color-coded city labels (Chicago, LA, Phoenix, etc.).
 
-Visual Insights:
+Bar Chart: Price distribution showing property counts across price brackets.
 
-📅 Monthly Filing Trend (Bar chart)
+Line Graph: Trend of average property prices by year built.
 
-📈 Cumulative Filing Growth (Line chart)
+Data Table: Detailed view of individual listings (address, city, price, bedrooms, bathrooms, square footage, year built).
 
-🥧 Refund Status Breakdown (Pie chart)
+🔍 Insights Uncovered:
+Most listings are concentrated in cities like Los Angeles, Chicago, and Houston.
 
-👷 Occupation-wise Net Income (Horizontal bar chart)
+Average property price is approximately $560.91K.
 
-🗺️ State-wise Tax Paid Heat Map (Map visual)
+The price per square foot is around $260, indicating regional differences in value.
 
-🔍 Data Preparation Highlights:
-Cleaned categorical fields for consistency.
+Properties built around 1980 tend to have the highest average price.
 
-Removed pre-aggregated fields to allow flexible DAX-based calculations.
+Distribution analysis shows a higher number of properties in the $600K–$700K price range.
 
-Added date breakdowns for monthly insights.
+✅ Outcome & Impact:
+This dashboard supports data-driven decision-making for potential homebuyers, investors, and real estate professionals.
 
-Introduced logic checks between Refund_Status and Refund_Amount.
+It allows users to quickly identify trends, compare cities, and evaluate property value across key dimensions.
 
-Resolved mapping issues by properly tagging State fields with correct geographic metadata.
-
-📐 Technical Stack:
-Power BI Desktop
-
-Data Source: Excel (500+ synthetic but realistic records)
-
-Custom DAX Measures for:
-
-Refund Success Rate
-
-Cumulative Filings
-
-Net Income
-
-State-level aggregations
-
-🧠 Why This Project Matters:
-This dashboard simulates a real-world government or enterprise scenario where high-volume tax data must be analyzed for:
-
-Revenue performance,
-
-Taxpayer behavior, and
-
-Refund efficiency across different regions and professions.
 
